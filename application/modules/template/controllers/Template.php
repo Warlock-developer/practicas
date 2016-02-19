@@ -6,15 +6,15 @@ class Template extends MX_Controller {
  	
  	}
 
-	function one_col(){
-		$this->load->view('one_col');
+	function one_col($data){
+		$this->load->view('one_col',$data);
 	}
 
-	function two_col(){
-		$this->load->view('two_col');
+	function two_col($data){
+		$this->load->view('two_col',$data);
 	}
 
-	function admin(){
-		$this->load->view('admin');
+	function admin($data){
+		$this->load->view('admin',$data);
 	}
 }
