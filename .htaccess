@@ -1,11 +1,10 @@
 # INICIO
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /codeigniter3/
+RewriteBase /practicas/
 RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /codeigniter3/index.php [L]
+RewriteRule . /practicas/index.php [L]
 </IfModule>
- 
 # FIN

@@ -1,0 +1,19 @@
+<script type="text/javascript" language="javascript" src="<?php echo base_url() ?>vendors/mustache/mustache.js"></script> 
+<div id="peopleModule">
+    <h1>People</h1>
+    <input placeholder="name" type="text">
+    <button id="addPerson">Add Person</button>
+    <ul id="people">
+        <script id="people-template" type="text/template">
+            {{#people}}
+            <li>
+            <span>{{.}}</span>
+            <i class="del">X</i>
+            </li>
+            {{/people}}
+        </script>
+    </ul>
+
+</div>
+
+<script type="text/javascript" language="javascript" src="<?php echo base_url() ?>assets/js/pattersn.js"></script>
