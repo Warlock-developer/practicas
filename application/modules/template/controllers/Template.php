@@ -8,10 +8,5 @@ class Template extends MX_Controller {
         $this->load->view('template', $data);
     }
 
-    function user() {
-        //$this->load->view('admin');
-    }
-
-   
 
 }

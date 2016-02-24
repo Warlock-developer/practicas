@@ -77,6 +77,7 @@
             <li class="active"><a href="home">Home</a></li>
             <li><a href="users">Users</a></li>
             <li><a href="patterns">Patterns</a></li>
+            <li><a href="extjs">Semcha</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
