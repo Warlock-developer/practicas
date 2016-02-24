@@ -1,34 +1,21 @@
-<!DOCTYPE html>
-<html manifest="">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	    <title>Kitchen Sink</title>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="google" content="notranslate" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <!-- Ext JS -->
+	    <link rel="stylesheet" type="text/css" href="../../resources/css/ext-neptune.css" />
+	    <script type="text/javascript" src="../../ext-all.js"></script>
+		<script type="text/javascript" src="all-classes.js"></script>
+	    <script type="text/javascript" src="../../ext-neptune.js"></script>
 
-    <title>Ext JS Kitchen Sink</title>
+	    <!-- Example -->
+	    <link rel="stylesheet" type="text/css" href="resources/css/sink.css" />
 
-    <link rel="apple-touch-icon" href="resources/images/apple-touch-icon.png"/>
+    <!-- GC -->
 
-    <!-- The line below must be kept intact for Sencha Command to build your application -->
-    <script type="text/javascript">
-        var Ext = Ext || {};
-        Ext.beforeLoad = function(tags){
-            var profile = location.href.match(/profile=([\w-]+)/),
-                locale = location.href.match(/locale=([\w-]+)/);
-
-            profile  = (profile && profile[1]) || (tags.phone ? 'modern-triton' : 'triton');
-            locale = (locale && locale[1]) || 'en';
-
-            Ext.manifest = profile + "-" + locale;
-            tags.test = /testMode=true/.test(location.search);
-            Ext.microloaderTags = tags;
-        };
-    </script>
-
-    <script id="microloader" type="text/javascript" src="bootstrap.js"></script>
-</head>
-<body></body>
+	    <script type="text/javascript" src="app.js"></script>
+	</head>
+	
+	<body></body>
 </html>
